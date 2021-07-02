@@ -9,3 +9,6 @@
   - Find the prime numbers which are anagram and store them in a 2D array, a Stack and a Queue both implemented using Linked List.
 7. Print the calender of the month considering month and year from the user. Store the calender in an array, a stack and a queue implemented using linked list.
 8. Hashing function to search a number. Read data from a file. Search for an element entered by the user. If found, delete the element, else add the element. Finally write the output in a file.
+9. Find the number of Binary Search Tree
+  - Input : T is the number of test cases. Each value of T is the number of nodes in the binary search tree.
+  - Output : For each test case, find the number of different binary search trees that can be created using these nodes. 
