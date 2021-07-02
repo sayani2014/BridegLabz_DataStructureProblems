@@ -8,3 +8,4 @@
 6. Find prime numbers from 0 to 1000 range and store them in a 2D array.
   - Find the prime numbers which are anagram and store them in a 2D array, a Stack and a Queue both implemented using Linked List.
 7. Print the calender of the month considering month and year from the user. Store the calender in an array, a stack and a queue implemented using linked list.
+8. Hashing function to search a number. Read data from a file. Search for an element entered by the user. If found, delete the element, else add the element. Finally write the output in a file.
