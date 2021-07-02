@@ -1,0 +1,1 @@
+[MyLinkedListNodes{Node {Key=44 Index=3}  -> Node {Key=55 Index=2}  -> Node {Key=26 Index=9}  -> Node {Key=93 Index=3}  -> Node {Key=17 Index=1}  -> Node {Key=31 Index=2}  -> Node {Key=20 Index=3}  -> Node {Key=54 Index=1} }]
