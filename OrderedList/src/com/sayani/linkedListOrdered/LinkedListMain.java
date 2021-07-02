@@ -27,29 +27,29 @@ public class LinkedListMain {
         String[] array = new String[dataArray.size()];
         array = dataArray.toArray(array);
 
-        LinkedListOrderedImplementation<String> unorderedImplementation = new LinkedListOrderedImplementation<>(array);
-        unorderedImplementation.insertBefore();
-        unorderedImplementation.insertEnd();
-        unorderedImplementation.insertAt();
+        LinkedListOrderedImplementation<String> orderedImplementation = new LinkedListOrderedImplementation<>(array);
+        orderedImplementation.insertBefore();
+        orderedImplementation.insertEnd();
+        orderedImplementation.insertAt();
         System.out.print("List after insertion in the linked list: ");
-        unorderedImplementation.display();
+        orderedImplementation.display();
 
         System.out.println();
         //Take input from the user to search for the word
         System.out.print("Enter the word you want to search from the file: ");
         String value = input.next();
 
-        System.out.println("Element found " +unorderedImplementation.search(value));
-        if(unorderedImplementation.search(value) == true)
-            unorderedImplementation.deleteNode(value);
+        System.out.println("Element found " +orderedImplementation.search(value));
+        if(orderedImplementation.search(value) == true)
+            orderedImplementation.deleteNode(value);
         else
-            unorderedImplementation.appendAtEnd(value);
+            orderedImplementation.appendAtEnd(value);
 
         //sort the linked list
-        unorderedImplementation.sortList();
+        orderedImplementation.sortList();
 
         System.out.print("New list: ");
-        ArrayList<String> data = unorderedImplementation.display();
+        ArrayList<String> data = orderedImplementation.display();
         readWriteData.writeFile(data);
     }
 }
